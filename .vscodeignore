@@ -1,0 +1,7 @@
+.github/
+.vscode/
+.gitignore
+media/languages/
+media/*.kra
+**/*.vsix
+node_modules/

@@ -1,0 +1,68 @@
+{
+  "name": "monokai-nebula-vscode",
+  "displayName": "Monokai Nebula",
+  "publisher": "jacobcallahan",
+  "description": "A deep and vivid Monokai-inspired theme for VS Code.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "icon": "media/thumbnail.png",
+  "bugs": {
+    "url": "https://github.com/jacobcallahan/monokai-nebula-vscode/issues"
+  },
+  "homepage": "https://github.com/jacobcallahan/monokai-nebula-vscode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jacobcallahan/monokai-nebula-vscode"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Nebula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai_nebula_dark.json"
+      },
+      {
+        "label": "Monokai Nebula Light",
+        "uiTheme": "vs",
+        "path": "./themes/monokai_nebula_light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "dev": "code --extensionDevelopmentPath=$PWD",
+    "package": "npx vsce package",
+    "publish": "npx vsce publish"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.0.0"
+  },
+  "galleryBanner": {
+    "color": "#101010",
+    "theme": "dark"
+  },
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  },
+  "keywords": [
+    "vscode",
+    "vsc",
+    "extension",
+    "theme",
+    "monokai",
+    "nebula",
+    "dark",
+    "light",
+    "vibrant",
+    "clean",
+    "syntax"
+  ]
+}
